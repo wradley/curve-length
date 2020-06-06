@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curve Length Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="pt" id="pt1"></div> -->
+    <div class="pt" id="pt2"></div>
+    <div class="pt" id="pt3"></div>
+    <!-- <div class="pt" id="pt4"></div> -->
+
+    <div class="container-row">
+        <div class="container-item">
+            <label for="height">Height</label>
+            <br>
+            <input type="number" name="height" id="height-input">
+        </div>
+        <div class="container-item">
+            <canvas id="myCanvas" width="1000" height="1000" style="border:1px solid #000000;">
+            </canvas>
+        </div>
+        <div class="container-item">
+            <label for="width">Length</label>
+            <br>
+            <p id="length-output">22.01</p>
+        </div>
+    </div>
+    <div class="container-row">
+        <div class="container-item">
+            <label for="width">Width</label>
+            <br>
+            <input type="number" name="width" id="width-input">
+        </div>
+    </div>
+    <script src="bezier.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

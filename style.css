@@ -1,0 +1,20 @@
+* {
+    user-select: none;
+}
+
+.pt {
+    width: 10px;
+    height:10px;
+    position: absolute;
+    background-color: chartreuse;
+}
+
+.container-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-item {
+    margin: 1em;
+}
